@@ -11,9 +11,9 @@
                             </div>
                             <div id="breakingNewsTicker" class="ticker">
                                 <ul>
-                                    <li><a href="single-post.html">10 Things Amazon Echo Can Do</a></li>
-                                    <li><a href="single-post.html">Welcome to Colorlib Family.</a></li>
-                                    <li><a href="single-post.html">Boys 'doing well' after Thai</a></li>
+                                    <li><a href="/cricket">Live Cricket</a></li>
+                                    <li><a href="/snooker">Live Snooker</a></li>
+                                    <li><a href="/football">Live Football</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -22,21 +22,26 @@
                         <div class="top-meta-data d-flex align-items-center justify-content-end">
                             <!-- Top Social Info -->
                             <div class="top-social-info">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/LiveTubers-103347338823592"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-pinterest"></i></a>
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-youtube-play"></i></a>
                             </div>
                             <!-- Top Search Area -->
-                            <div class="top-search-area">
-                                <form action="index.html" method="post">
+                            {{-- <div class="top-search-area">
+                                <form action="/" method="post">
                                     <input type="search" name="top-search" id="topSearch" placeholder="Search...">
                                     <button type="submit" class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
                                 </form>
-                            </div>
+                            </div> --}}
+
                             <!-- Login -->
-                            <a href="login.html" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>
+                            @guest
+                                <a class="nav-link" href="{{ route('login') }}" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i> Login</a>
+                            @else
+                                <a class="nav-link" href="#" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i> {{ Auth::user()->name }}</a>
+                            @endguest
                         </div>
                     </div>
                 </div>
@@ -52,7 +57,7 @@
                     <nav class="classy-navbar justify-content-between" id="vizewNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
+                        <a href="/home" class="nav-brand"><img src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -69,65 +74,22 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="archive-list.html">Archives</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">- Home</a></li>
-                                            <li><a href="archive-list.html">- Archive List</a></li>
-                                            <li><a href="archive-grid.html">- Archive Grid</a></li>
-                                            <li><a href="single-post.html">- Single Post</a></li>
-                                            <li><a href="video-post.html">- Single Video Post</a></li>
-                                            <li><a href="contact.html">- Contact</a></li>
-                                            <li><a href="typography.html">- Typography</a></li>
-                                            <li><a href="login.html">- Login</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Features</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">- Home</a></li>
-                                                <li><a href="archive-list.html">- Archive List</a></li>
-                                                <li><a href="archive-grid.html">- Archive Grid</a></li>
-                                                <li><a href="single-post.html">- Single Post</a></li>
-                                                <li><a href="video-post.html">- Single Video Post</a></li>
-                                                <li><a href="contact.html">- Contact</a></li>
-                                                <li><a href="typography.html">- Typography</a></li>
-                                                <li><a href="login.html">- Login</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">- Home</a></li>
-                                                <li><a href="archive-list.html">- Archive List</a></li>
-                                                <li><a href="archive-grid.html">- Archive Grid</a></li>
-                                                <li><a href="single-post.html">- Single Post</a></li>
-                                                <li><a href="video-post.html">- Single Video Post</a></li>
-                                                <li><a href="contact.html">- Contact</a></li>
-                                                <li><a href="typography.html">- Typography</a></li>
-                                                <li><a href="login.html">- Login</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">- Home</a></li>
-                                                <li><a href="archive-list.html">- Archive List</a></li>
-                                                <li><a href="archive-grid.html">- Archive Grid</a></li>
-                                                <li><a href="single-post.html">- Single Post</a></li>
-                                                <li><a href="video-post.html">- Single Video Post</a></li>
-                                                <li><a href="contact.html">- Contact</a></li>
-                                                <li><a href="typography.html">- Typography</a></li>
-                                                <li><a href="login.html">- Login</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">- Home</a></li>
-                                                <li><a href="archive-list.html">- Archive List</a></li>
-                                                <li><a href="archive-grid.html">- Archive Grid</a></li>
-                                                <li><a href="single-post.html">- Single Post</a></li>
-                                                <li><a href="video-post.html">- Single Video Post</a></li>
-                                                <li><a href="contact.html">- Contact</a></li>
-                                                <li><a href="typography.html">- Typography</a></li>
-                                                <li><a href="login.html">- Login</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li class="--active--"><a href="/home">Home</a></li>
+                                    <li><a href="/cricket">Live Cricket</a></li>
+                                    <li><a href="/snooker">Live Snooker</a></li>
+                                    <li><a href="/football">Live Football</a></li>
+                                    <li><a href="/contact">Contact</a></li>
+                                    @if (!Auth::guest())
+                                        <li><a class="nav-link" href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
+                                            document.getElementById('logout-form').submit();">
+                                            Logout
+                                        </a></li>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                            @csrf
+                                        </form>
+                                    @endif
                                 </ul>
                             </div>
                             <!-- Nav End -->
