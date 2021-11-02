@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Auth::routes();
+
+Route::get('/', [App\Http\Controllers\HomeController::class, 'home'])->name('home');
+Route::get('/cricket', [App\Http\Controllers\HomeController::class, 'cricket'])->name('cricket');
+Route::get('/snooker', [App\Http\Controllers\HomeController::class, 'snooker'])->name('snooker');
+Route::get('/football', [App\Http\Controllers\HomeController::class, 'football'])->name('football');
