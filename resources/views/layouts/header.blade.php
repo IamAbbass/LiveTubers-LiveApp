@@ -3,7 +3,7 @@
         <div class="top-header-area">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-4">
                         <!-- Breaking News Widget -->
                         <div class="breaking-news-area d-flex align-items-center">
                             <div class="news-title">
@@ -18,11 +18,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-4">
+                        <!-- Breaking News Widget -->
+                        <div class="breaking-news-area d-flex align-items-center">
+                            <div class="news-title">
+                                <p>Subscribers: {{ \App\Models\User::count() }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
                         <div class="top-meta-data d-flex align-items-center justify-content-end">
                             <!-- Top Social Info -->
                             <div class="top-social-info">
-                                <a href="https://www.facebook.com/LiveTubers-103347338823592"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/LiveTubers-103347338823592" target="_blank"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-pinterest"></i></a>
                                 <a href="#"><i class="fa fa-linkedin"></i></a>

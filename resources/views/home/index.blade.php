@@ -341,7 +341,7 @@
                             <img src="{{ asset('img/web-img/football.jpg') }}" alt="">
                         </div>
                         <div class="post-content">
-                            <a href="/snooker" class="post-cata cata-sm cata-primary">Coming Soon</a>
+                            <a href="/snooker" class="post-cata cata-sm cata-success">Live</a>
                             <a href="/snooker" class="post-title">Live Snooker</a>
                             <div class="post-meta d-flex">
                                 <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 18</a>
@@ -358,7 +358,7 @@
                             <img src="{{ asset('img/web-img/snooker.jpg') }}" alt="">
                         </div>
                         <div class="post-content">
-                            <a href="/football" class="post-cata cata-sm cata-primary">Coming Soon</a>
+                            <a href="/football" class="post-cata cata-sm cata-success">Live</a>
                             <a href="/football" class="post-title">Live Football</a>
                             <div class="post-meta d-flex">
                                 <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 13</a>

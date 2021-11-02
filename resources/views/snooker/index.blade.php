@@ -28,7 +28,8 @@
                         <div class="line"></div>
                     </div>
                     <div class="single-video-area">
-                        <img src="{{ asset('img/web-img/snooker.jpg') }}" alt="" width="200%">
+                        <iframe src="https://cricfree.live/update/euro1.php" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <small style="font-size: 10px;">Disclaimer: None of the videos are hosted by this site. Streams hosted on external sites like Youtube and embedded here. This site is not responsible for the legality of the content. For legal issues, please contact appropriate media file owners/hosters.</small>
                     </div>
                 </div>
             </div>
