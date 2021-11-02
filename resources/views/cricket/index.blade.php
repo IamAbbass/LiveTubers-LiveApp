@@ -58,7 +58,7 @@
 
                                 <div class="d-flex justify-content-between mb-30">
                                     <div class="post-meta d-flex align-items-center">
-                                        <a href="#" class="post-author">By Zed Developers</a>
+                                        <a href="#" class="post-author">By Admin</a>
                                         <i class="fa fa-circle" aria-hidden="true"></i>
                                         <a href="#" class="post-date">Oct 17, 2021</a>
                                     </div>

@@ -338,7 +338,7 @@
                 <div class="col-12 col-md-4">
                     <div class="single-post-area mb-80">
                         <div class="post-thumbnail">
-                            <img src="{{ asset('img/web-img/football.jpg') }}" alt="">
+                            <img src="{{ asset('img/web-img/snooker.jpg') }}" alt="">
                         </div>
                         <div class="post-content">
                             <a href="/snooker" class="post-cata cata-sm cata-success">Live</a>
@@ -355,7 +355,7 @@
                 <div class="col-12 col-md-4">
                     <div class="single-post-area mb-80">
                         <div class="post-thumbnail">
-                            <img src="{{ asset('img/web-img/snooker.jpg') }}" alt="">
+                            <img src="{{ asset('img/web-img/football.jpg') }}" alt="">
                         </div>
                         <div class="post-content">
                             <a href="/football" class="post-cata cata-sm cata-success">Live</a>
