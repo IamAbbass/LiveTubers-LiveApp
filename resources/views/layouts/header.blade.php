@@ -57,7 +57,7 @@
                     <nav class="classy-navbar justify-content-between" id="vizewNav">
 
                         <!-- Nav brand -->
-                        <a href="/home" class="nav-brand"><img src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
+                        <a href="/" class="nav-brand"><img src="{{ asset('img/core-img/logo.png') }}" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -74,7 +74,7 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class="--active--"><a href="/home">Home</a></li>
+                                    <li class="--active--"><a href="/">Home</a></li>
                                     <li><a href="/cricket">Live Cricket</a></li>
                                     <li><a href="/snooker">Live Snooker</a></li>
                                     <li><a href="/football">Live Football</a></li>

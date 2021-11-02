@@ -5,7 +5,7 @@
                 <div class="col-12 col-sm-6 col-xl-3">
                     <div class="footer-widget mb-70">
                         <!-- Logo -->
-                        <a href="/home" class="foo-logo d-block mb-4"><img src="{{ asset('img/core-img/logo2.png') }}" alt=""></a>
+                        <a href="/" class="foo-logo d-block mb-4"><img src="{{ asset('img/core-img/logo2.png') }}" alt=""></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                         <!-- Footer Newsletter Area -->
                         <div class="footer-nl-area">
@@ -126,7 +126,7 @@
                     <div class="col-12 col-sm-6">
                         <nav class="footer-nav">
                             <ul>
-                                <li><a href="/home">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="/cricket">Live Cricket</a></li>
                                 <li><a href="/snooker">Live Snooker</a></li>
                                 <li><a href="/football">Live Football</a></li>
