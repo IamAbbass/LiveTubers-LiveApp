@@ -30,7 +30,7 @@
 
                     <!-- Contact Form Area -->
                     <div class="contact-form-area mt-50">
-                        <form action="#" method="post">
+                        <form action="#">
                             <div class="form-group">
                                 <label for="name">Name*</label>
                                 <input type="text" class="form-control" id="name">
@@ -60,7 +60,7 @@
                             <p>Subscribe our newsletter gor get notification about new updates, information discount, etc.</p>
                             <!-- Newsletter Form -->
                             <div class="newsletter-form">
-                                <form action="#" method="post">
+                                <form action="#">
                                     <input type="email" name="nl-email" class="form-control mb-15" id="emailnl" placeholder="Enter your email">
                                     <button type="submit" class="btn vizew-btn w-100">Subscribe</button>
                                 </form>

@@ -9,7 +9,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                         <!-- Footer Newsletter Area -->
                         <div class="footer-nl-area">
-                            <form action="#" method="post">
+                            <form action="#">
                                 <input type="email" name="nl-email" class="form-control" id="nlEmail" placeholder="Your email">
                                 <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                             </form>
