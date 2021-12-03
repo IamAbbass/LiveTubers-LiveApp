@@ -97,7 +97,7 @@
                         <div class="contact-address">
                             {{-- <p>101 E 129th St, East Chicago, <br>IN 46312, US</p>
                             <p>Phone: 001-1234-88888</p> --}}
-                            <p>Email: info@livetubers.com</p>
+                            <p>Email: info@livetuber.com</p>
                         </div>
                         <!-- Footer Social Area -->
                         <div class="footer-social-area">

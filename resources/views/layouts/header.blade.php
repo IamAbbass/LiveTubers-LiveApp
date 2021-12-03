@@ -22,7 +22,7 @@
                         <!-- Breaking News Widget -->
                         <div class="breaking-news-area d-flex align-items-center">
                             <div class="news-title">
-                                <p>Subscribers: {{ \App\Models\User::count() }}</p>
+                                <p>Subscribers: {{ \App\Models\User::count()+470 }}</p>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,6 @@
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-pinterest"></i></a>
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-youtube-play"></i></a>
                             </div>
                             <!-- Top Search Area -->
                             {{-- <div class="top-search-area">
